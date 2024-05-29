@@ -1,0 +1,12 @@
+server:
+  port: 9002
+
+spring:
+  application:
+    name: bubua12-cloud-nacos
+  cloud:
+    nacos:
+      discovery:
+        username: nacos
+        password: nacos
+        server-addr: 192.168.1.50:8848 # 配置作为服务注册中心的 Nacos Server 地址
